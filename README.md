@@ -1,6 +1,6 @@
 # EasyLearn
 
-It is a Java-based Android application. To build this project, I used Android Studio and Gradle build automation tools. Also used a Java language. 
+It is a Java-based Android application. To build this project, I used Android Studio, Gradle build automation tools, Java language, and XML. 
 The main clients of this application are Class 1-12 students, Admission students, and Job seekers.
 The features are:
   1. log in
