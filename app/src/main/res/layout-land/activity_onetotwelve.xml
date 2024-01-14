@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onetotwelveActivity"
+    android:gravity="center_vertical"
+    
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="102dp"
+        android:gravity="center"
+        android:text="Select Your Class"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/selectClass"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="436dp"
+        android:layout_below="@+id/selectClass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="188dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="20dp"
+         
+
+        >
+
+        <Button
+            
+            android:id="@+id/button1"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="15dp"
+            android:text="Class One"
+            android:layout_marginTop="15dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            
+            android:text="Class One"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/button6"
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/button7"
+
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="15dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/button8"
+
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="90dp"
+            
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/button9"
+
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="165dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/button10"
+
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="240dp"
+            android:text="Class One">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/buttonHsc"
+
+            android:layout_width="130dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="310dp"
+            android:text="Class One">
+
+        </Button>
+
+
+    </androidx.cardview.widget.CardView>
+       
+
+    
+        
+        
+        
+        
+
+
+       
+
+
+    
+
+
+</RelativeLayout>

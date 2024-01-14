@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easylearn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher6"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher6_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyLearn">
+        <activity
+            android:name=".cHscActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cTen"
+            android:exported="false" />
+        <activity
+            android:name=".cNine"
+            android:exported="false" />
+        <activity
+            android:name=".cSeven"
+            android:exported="false" />
+        <activity
+            android:name=".cEight"
+            android:exported="false" />
+        <activity
+            android:name=".cSix"
+            android:exported="false" />
+        <activity
+            android:name=".cFive"
+            android:exported="false" />
+        <activity
+            android:name=".cFour"
+            android:exported="false" />
+        <activity
+            android:name=".cThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admissionTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".onetotwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityone"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

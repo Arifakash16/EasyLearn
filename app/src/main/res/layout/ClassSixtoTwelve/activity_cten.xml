@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardElevation="40dp"
+    android:foreground="?selectableItemBackground"
+    app:cardUseCompatPadding="true"
+
+    tools:context=".cTen"
+
+    app:cardCornerRadius="15dp"
+
+
+
+    >
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:background="@color/black"
+
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Your Group"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:padding="15dp"
+
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+
+            >
+
+        </TextView>
+        <Button
+
+            android:id="@+id/tenScience"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Science"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:layout_margin="25dp"
+            android:background="@drawable/groupdesign"
+            android:drawableLeft="@drawable/lal_24"
+            >
+
+        </Button>
+        <Button
+
+            android:id="@+id/tenBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Business"
+            android:textSize="20dp"
+            android:layout_margin="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:background="@drawable/groupdesign"
+            android:drawableLeft="@drawable/nil_24">
+
+        </Button>
+        <Button
+
+            android:id="@+id/tenArts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Arts"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:layout_margin="25dp"
+            android:background="@drawable/groupdesign"
+            android:drawableLeft="@drawable/arts"
+            >
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
