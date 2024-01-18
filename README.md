@@ -4,7 +4,7 @@ It is a Java-based Android application. To build this project, I used Android St
 The main clients of this application are Class 1-12 students, Admission students, and Job seekers.
 The features are:
   1. log in
-  2. Create an account
+  2. Create an account  - Authentication check
   3. EasyLearn
        1. Primary
             1.Class-1 to Class-5
